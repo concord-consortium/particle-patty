@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "org.concord.particle-patty"
+    versionCode = "1"
+    version     = "0.0.1" >
+
+<!-- versionCode is optional and Android only -->
+
+  <name>Particle Patty</name>
+
+  <description>
+      Particle Patty - Cartoon of states of matter
+  </description>
+
+  <author href="https://concord.org" email="chart@concord.org">
+      The Concord Consortium
+  </author>
+
+  <platform name="ios" />
+  <platform name="android" />
+  <preference name="AllowInlineMediaPlayback" value="true" />
+  <content src="index.html" />
+  <access origin="*" />
+</widget>
