@@ -13,13 +13,16 @@
       Particle Patty - Cartoon of states of matter
   </description>
 
-  <author href="https://concord.org" email="chart@concord.org">
+  <author href="https://concord.org" email="sfentress@concord.org">
       The Concord Consortium
   </author>
 
   <platform name="ios" />
   <platform name="android" />
-  <preference name="AllowInlineMediaPlayback" value="true" />
+
+
+  <preference name="orientation" value="landscape" />
+
   <content src="index.html" />
   <access origin="*" />
 </widget>
