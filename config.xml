@@ -31,6 +31,11 @@
     <splash src="splash-2048.png" platform="ios" width="2048" height="1536" />
   </platform>
 
+  <plugin name="cordova-plugin-statusbar" />
+  <preference name="StatusBarOverlaysWebView" value="true" />
+  <preference name="StatusBarBackgroundColor" value="#000000" />
+  <preference name="StatusBarStyle" value="lightcontent" />
+
   <content src="index.html" />
   <access origin="*" />
 </widget>
