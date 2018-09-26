@@ -15,5 +15,17 @@
       </ul>
     </div>
   </div>
+  <img id="splash" src="res/splash-1024.png" />
 </body>
+<script>
+  function addClass(el, className) {
+    if (el.classList)
+      el.classList.add(className);
+    else
+      el.className += ' ' + className;
+  }
+  setTimeout(function() {
+    addClass(document.getElementById("splash"), "hidden");
+  }, 1000);
+</script>
 </html>
